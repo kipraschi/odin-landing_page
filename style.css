@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* elements */
+
+a,
+.hero .text,
+.call .text {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 5px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+h2 {
+  display: flex;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.logo,
+.call .title {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero .left,
+.hero .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+.hero .left {
+    align-items: flex-start;
+}
+
+.hero .right {
+    background-color: gray;
+    color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 7px;
+  padding: 8px 20px;
+  border: 0;
+}
+
+.items img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.author {
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: right;
+  font-style: normal;
+}
+
+/* divs */
+.header,
+.hero,
+.info,
+.container,
+.footer {
+  display: flex;
+  flex-grow: 0;
+}
+
+.header,
+.footer {
+  padding: 0px 200px;
+  min-height: 60px;
+  align-items: center;
+}
+
+.hero,
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+
+.hero {
+  padding: 80px 200px;
+}
+
+.info {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 80px 300px;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  padding: 80px 200px;
+}
+
+.footer {
+  justify-content: space-around;
+}
+
+.items {
+  display: flex;
+  gap: 50px;
+}
+
+.item {
+  max-width: 150px;
+}
+
+.call {
+  display: flex;
+  width: 1000px;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
